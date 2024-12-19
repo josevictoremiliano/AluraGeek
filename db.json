@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Estrela Jogo Banco Imobiliário RV",
+      "price": "95,80",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSLTXExdT-5kCe_zSINYOMoonAbGz3YO6VUBvmyNy7RkyhDjo2vD8voy9zWF7LRcww7h4QWNxg1zEwXO1sZQfVMpjNNqurjnqT20_mDqFIcBiRK_YxKvRDX&usqp=CAE"
+    },
+    {
+      "id": 2,
+      "name": "UNO no mercy",
+      "price": "58,90",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ7XOBaIZ4g1JrzK9mH7Lie2byKLAqsL2wr66_iN69uM1Men4jAEQ-ffOBI72oOwlQIG7yzyoQ29jMR9CikefiPDyDt6qvBs6yG8VgfhAiaVkVp3-Bv--EvpA&usqp=CAE"
+    },
+    {
+      "id": 3,
+      "name": "H. Legacy",
+      "price": "366,90",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSvvxDBJNIFOYYIwCRR6i_7jepKDu6wsBIwUa5hpxOuFXX2rIDOUhIKYduWFST1sdWvdMVVNwiMFgEA4-1CnxDgKOi_f-FuMSxJu2SBHcQPF4Y8SI45uB93hg&usqp=CAE"
+    },
+    {
+      "id": 4,
+      "name": "HelloNeighbor",
+      "price": "199,90",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQZwvsK99-JylyNtdrFBypT8xg_IshOvQobT7JXl8jCA8B1T1AU-LIH4vArMnn2O6PDPWnK3SAplHJITRsOuFUrURyZxv2SZw&usqp=CAE"
+    },
+    {
+      "id": 1734616350737.4026,
+      "name": "idiana",
+      "price": "522",
+      "image": "https://static-cdn.jtvnw.net/ttv-boxart/1397606945_IGDB-188x250.jpg"
+    }
+  ]
+}

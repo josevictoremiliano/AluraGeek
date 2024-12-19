@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "json-server": "0.17.4",
+    "npm": "^11.0.0"
+  },
+  "name": "alurageek",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

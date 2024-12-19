@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.svg" alt="logo AluraGeek">
+    </header>
+
+    <main>
+        <div class="produtos">
+            <div class="header-produtos">
+                <h2>Meus produtos:</h2>
+                <!-- Pesquisa -->
+                <input type="text" name="pesquisa" placeholder="Pesquisar produto" data-search>
+            </div>
+            <div class="lista" data-lista>
+                
+            </div>
+        </div>
+
+        <div class="addProduto">
+            <h2>Adicionar produto!</h2>
+            <form method="post" data-form>
+                <input type="text" name="nome" placeholder="Nome do produto" data-name>
+                <input type="text" name="preco" placeholder="Preço do produto" data-price>
+                <input type="text" name="imagem" placeholder="Imagem do produto" data-image>
+                <span class="muted">Use URL´s da web aqui!</span>
+                <div class="buttons">
+                    <button type="submit">Adicionar produto</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+
+            <div class="excluir">
+                <h2>Excluir produto!</h2>
+                <form method="post" data-form-delete>
+                    <!--Select-->
+                    <select name="produto" data-select>
+                        <option value="" selected>Selecione um produto</option>
+                    </select>
+                    <div class="buttons">
+                        <button type="submit">Excluir produto</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/renderProducts.js" type="module"></script>
+    <script src="js/postProducts.js" type="module"></script>
+</body>
+</html>
